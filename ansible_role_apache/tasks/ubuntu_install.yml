@@ -1,0 +1,6 @@
+---
+- name: Installing apache
+  package:
+    name: apache2
+    state: latest
+
